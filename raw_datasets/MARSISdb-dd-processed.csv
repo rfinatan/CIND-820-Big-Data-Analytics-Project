@@ -1,0 +1,465 @@
+table_name,column_name,full_column_name,descriptions,data_type,char_len
+MDOTW_VW_OCCURRENCE_PUBLIC,AccIncTypeDisplayEng,Accident/incident type (English),"The type of accident or incident, in English. ",varchar,513
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,AccIncTypeDisplayEng,Accident/incident type (English),"The type of accident or incident, in English. ",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,AccIncTypeDisplayFre,Accident/incident type (French),"The type of accident or incident, in French. ",varchar,513
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,AccIncTypeDisplayFre,Accident/incident type (French),"The type of accident or incident, in French. ",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,AccIncTypeID,Accident/incident type identification number,A system-generated number for the purposes of database administration.,NULL,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,AccIncTypeID,Accident/incident type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ActivityCategoryDisplayEng,Activity category (English),"The category of activity (carriage of cargo or people, fishing, search and rescue, etc.) being undertaken on the occurrence voyage, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ActivityCategoryDisplayFre,Activity category (French),"The category of activity (carriage of cargo or people, fishing, search and rescue, etc.) being undertaken on the occurrence voyage, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ActivityCategoryID,Activity category identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ActivityTypeDisplayEng,Activity type (English),"The subtype of activity being undertaken on the occurrence voyage, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ActivityTypeDisplayFre,Activity type (French),"The subtype of activity being undertaken on the occurrence voyage, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ActivityTypeID,Activity type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,AirPollutionDisplayEng,Air pollution (English),"Indicates whether there was air pollution present at the time of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,AirPollutionDisplayFre,Air pollution (French),"Indicates whether there was air pollution present at the time of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,AirPollutionEnum,Air pollution enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,AirTemp_Celsius,Air temperature (Celsius),"The air temperature at the time of the occurrence, in degrees Celsius.",int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,ApprovedEnum,Approved enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,ApprovedEnumDisplayEng,Approved (English),"Indicates whether the vessel had approved life-saving equipment on board at the time of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,ApprovedEnumDisplayFre,Approved (French),"Indicates whether the vessel had approved life-saving equipment on board at the time of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,AreaTypeDisplayEng,Area type (English),"The type of area where the occurrence took place, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,AreaTypeDisplayFre,Area type (French),"The type of area where the occurrence took place, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,AreaTypeID,Area type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,BearingDisplay,Bearing,The bearing of the distance between the occurrence location and the nearest geographical location.,varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,BearingID,Bearing identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,BeaufortScaleDisplayEng,Beaufort scale (English),"The description of the wind speed at the time of the occurrence, according to the Beaufort scale, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,BeaufortScaleDisplayFre,Beaufort scale (French),"The description of the wind speed at the time of the occurrence, according to the Beaufort scale, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,BeaufortScaleID,Beaufort scale identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,BergyBitsEnum,Bergy bits enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,BergyBitsEnumDisplayEng,Bergy bits (English),"Indicates whether there were bergy bits at the occurrence location, in English. ",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,BergyBitsEnumDisplayFre,Bergy bits (French),"Indicates whether there were bergy bits at the occurrence location, in French. ",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,CallSign,Call sign,The vessel's radio call sign (a unique combination of letters and numbers).,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,CapsuleAudioFilesDelEnum,Capsule audio files deleted enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,CapsuleAudioFilesDelEnumDisplayEng,Capsule audio files deleted (English),"Indicates whether the files on the voice data recorder's float-free capsule were deleted, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,CapsuleAudioFilesDelEnumDisplayFre,Capsule audio files deleted (French),"Indicates whether the files on the voice data recorder's float-free capsule were deleted, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,CapsuleAudioFilesSegregatedEnum,Capsule audio files segregated enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,CapsuleAudioFilesSegregatedEnumDisplayEng,Capsule audio files segregated (English),"Indicates whether the audio files on the voice data recorder's float-free capsule were segregated, in English. ",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,CapsuleAudioFilesSegregatedEnumDisplayFre,Capsule audio files segregated (French),"Indicates whether the audio files on the voice data recorder's float-free capsule were segregated, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,CapsuleRecCapacity_NumberOfDays,Capsule recording capacity in number of days,"The storage capacity of the voice data recorder's float-free capsule, in days.",numeric,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,CargoCategoryDisplayEng,Cargo category (English),"The category of cargo on board the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,CargoCategoryDisplayFre,Cargo category (French),"The category of cargo on board the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,CargoCategoryID,Cargo category identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,CargoProductTypeDisplayEng,Cargo product type (English),"The subtype of cargo on board the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,CargoProductTypeDisplayFre,Cargo product type (French),"The subtype of cargo on board the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,CargoProductTypeID,Cargo product type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ClassSocietyDisplayEng,Class society (English),"The name of the class society, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ClassSocietyDisplayFre,Class society (French),"The name of the class society, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ClassSocietyID,Class society identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,Course_Degrees,Course in degrees,"The vessel's course, in degrees.",numeric,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,DamageIND,Damage indicator,A system-generated number for the purposes of database administration.,smallint,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,DamageIND_DisplayEng,Damage (English),"Indicates whether there was any damage to the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,DamageIND_DisplayFre,Damage (French),"Indicates whether there was any damage to the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,DataExtractedEnum,Data extracted enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,DataExtractedEnumDisplayEng,Data extracted (English),"Indicates whether data were extracted from the vessel's video data recorder float-free device, in English. ",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,DataExtractedEnumDisplayFre,Data extracted (French),"Indicates whether data were extracted from the vessel's video data recorder float-free device, in French. ",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DepartureCountryDisplayEng,Departure country (English),"The country from which the vessel departed, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DepartureCountryDisplayFre,Departure country (French),"The country from which the vessel departed, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DepartureCountryID,Departure country,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DepartureDate,Departure date,The date on which the vessel sailed from port. Date format is YYYY-MM-DD.,date,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DepartureLocationTypeDisplayEng,Departure location type (English),"The type of location where the occurrence happened, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DepartureLocationTypeDisplayFre,Departure location type (French),"The type of location where the occurrence happened, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DepartureLocationTypeID,Departure location type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DeparturePortDisplayEng,Departure port (English),"The port from which the vessel departed, in English. ",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DeparturePortDisplayFre,Departure port (French),"The port from which the vessel departed, in French. ",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DeparturePortID,Departure port identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DepartureTime,Departure time,The time at which the vessel sailed from port. Time format is hh:mm (24-hour clock).,time,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DepartureTimeZoneDisplayEng,Departure time zone (English),"The time zone of the time at which the vessel sailed from port, in English. The number in parentheses indicates the number of hours ahead of Universal Coordinated Time.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DepartureTimeZoneDisplayFre,Departure time zone (French),"The time zone of the time at which the vessel sailed from port, in French. The number in parentheses indicates the number of hours ahead of Universal Coordinated Time.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DepartureTimeZoneID,Departure time zone identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,DeployedIND,Deployed indicator,A system-generated number for the purposes of database administration.,smallint,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,DeployedIND_DisplayEng,Deployed (English),"Indicates whether the TSB deployed to the occurrence site, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,DeployedIND_DisplayFre,Deployed (French),"Indicates whether the TSB deployed to the occurrence site, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationCountryDisplayEng,Destination country (English),"The vessel's destination country, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationCountryDisplayFre,Destination country (French),"The vessel's destination country, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationCountryID,Destination country identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationDate,Destination date,The date on which the vessel was scheduled to arrive at the destination port. Date format is YYYY-MM-DD.,date,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationLocationTypeDisplayEng,Destination location type (English),"The type of location of the vessel's destination port, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationLocationTypeDisplayFre,Destination location type (French),"The type of location of the vessel's destination port, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationLocationTypeID,Destination location type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationPortDisplayEng,Destination port (English),"The vessel's destination port, in English. ",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationPortDisplayFre,Destination port (French),"The vessel's destination port, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationPortID,Destination port identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationTime,Destination time,The time of day at which the vessel was scheduled to arrive at the destination port. Time format is hh:mm (24-hour clock).,time,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationTimeZoneDisplayEng,Destination time zone (English),"The time zone of the vessel's destination, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationTimeZoneDisplayFre,Destination time zone (French),"The time zone of the vessel's destination, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DestinationTimeZoneID,Destination time zone identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DraughtAft_Meters,Draught aft (metres),"The draft of the vessel aft, in metres.",numeric,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,DraughtFwd_Meters,Draught forward (metres),"The draft of the vessel forward, in metres.",numeric,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,EntryDate,Entry date,The date on which the occurrence record was created in MARSIS. Date format is YYYY-MM-DD.,datetime,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,EnvironmentalConditionID,Environmental condition identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,EquipSeizedEnum,Equipment seized enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,EquipSeizedEnumDisplayEng,Equipment seized (English),"Indicates whether voyage data recorder equipment was seized by the TSB, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,EquipSeizedEnumDisplayFre,Equipment seized (French),"Indicates whether voyage data recorder equipment was seized by the TSB, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,FatigueContFactorEnum,Fatigue contributing factor enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,FatigueContFactorEnum_DisplayEng,Fatigue contributing factor (English),"Indicates whether fatigue was a contributing factor in the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,FatigueContFactorEnum_DisplayFre,Fatigue contributing factor (French),"Indicates whether fatigue was a contributing factor in the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,FatigueInvestEnum,Fatigue investigated enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,FatigueInvestEnum_DisplayEng,Fatigue investigated (English),"Indicates whether the TSB investigated fatigue as part of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,FatigueInvestEnum_DisplayFre,Fatigue investigated (French),"Indicates whether the TSB investigated fatigue as part of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,FisheryTypeDisplayEng,Fishery type (English),"The type of fishery (e.g. dive, gill net, troll), in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,FisheryTypeDisplayFre,Fishery type (French),"The type of fishery (e.g. dive, gill net, troll), in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,FisheryTypeID,Fishery type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,GearTypeDisplayEng,Gear type (English),"The type of gear, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,GearTypeDisplayFre,Gear type (French),"The type of gear, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,GearTypeID,Gear type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,GrossTonnage,Gross tonnage,"The gross tonnage of the vessel involved in the occurrence. Gross tonnage is the volume capacity of the spaces within the hull and of the enclosed spaces above deck for cargo, fuel, passengers, and crew. ",numeric,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,GrowlersEnum,Growlers enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,GrowlersEnumDisplayEng,Growlers (English),"Indicates whether there were growlers in the area of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,GrowlersEnumDisplayFre,Growlers (French),"Indicates whether there were growlers in the area of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,HullMaterialDisplayEng,Hull material (English),"The material that the hull of the vessel involved in the occurrence is made out of, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,HullMaterialID,Hull material identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,HullMaterialTypeDisplayFre,Hull material type (English),"The material that the hull of the vessel involved in the occurrence is made out of, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,IcebergEnum,Iceberg enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,IcebergEnumDisplayEng,Iceberg (English),"Indicates whether an iceberg was present in the area of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,IcebergEnumDisplayFre,Iceberg (French),"Indicates whether an iceberg was present in the area of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,IceCoverage_ScaleOutOf1to10,Ice coverage scale out of 0 to 10,"The amount of ice covering the area at the time of the occurrence, on a scale of 0 (no ice) to 10.",smallint,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,IICName,Investigator in charge name,The name of the TSB investigator-in-charge assigned to the occurrence.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,IMO,International Maritime Organization,The number assigned to the vessel by the International Maritime Organization.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ImoClass,International Maritime Organization class,"Indicates the IMO Classification of an occurrence, based on the IMO Code of International Standards and Recommended Practices for a Safety Investigation into a Marine Casualty or Marine Incident (Casualty Investigation Code). ",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,ImoClasslevelDisplayEng,International Maritime Organization class level (English),"The description of the IMO classification, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,ImoClassLevelDisplayFre,International Maritime Organization class level (French),"The description of the IMO classification, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,ImoClassLevelID,International Maritime Organization class level identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,IncludedInDailyEnum,Included in daily enumerated,A system-generated number for the purposes of database administration.,smallint,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,IncludedInDailyEnumDisplayEng,Included in daily (English),"Indicates whether the occurrence is included in the TSB's daily notification log, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,IncludedInDailyEnumDisplayFre,Included in daily (French),"Indicates whether the occurrence is included in the TSB's daily notification log, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,InjuriesIND,Injuries indicator,A system-generated number for the purposes of database administration.,smallint,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,InjuriesIND_DisplayEng,Injuries (English),"Indicates whether the occurrence resulted in any injuries, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,InjuriesIND_DisplayFre,Injuries (French),"Indicates whether the occurrence resulted in any injuries, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,InstructionAvailableEnum,Instruction available enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,InstructionAvailableEnumDisplayEng,Instruction available (English),"Indicates whether the instructions for the VDR equipment were available, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,InstructionAvailableEnumDisplayFre,Instruction available (French),"Indicates whether the instructions for the VDR equipment were available, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,InstructionsPostedEnum,Instructions posted enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,InstructionsPostedEnumDisplayEng,Instructions posted (English),"Indicates whether the instructions for the VDR equipment were posted, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,InstructionsPostedEnumDisplayFre,Instructions posted (French),"Indicates whether the instructions for the VDR equipment were posted, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,LatEnum,Latitude enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,LatEnum_Bearing_DisplayEng,Latitude bearing (English),"Indicates whether the occurrence took place north or south of the equator (N = north; S = south), in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,LatEnum_Bearing_DisplayFre,Latitude bearing (French),"Indicates whether the occurrence took place north or south of the equator (N = north; S = south), in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,Latitude,Latitude,"The latitude at which the occurrence took place, in decimal degrees. A positive number indicates a latitude in the northern hemisphere; a negative number indicates a latitude in the southern hemisphere.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,Length_Meters,Length (metres),"The length of the vessel, in metres.",numeric,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,LengthTypeDisplayEng,Length type (English),"Indicates whether the vessel's length is its overall or registered length, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,LengthTypeDisplayFre,Length type (French),"Indicates whether the vessel's length is its overall or registered length, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,LengthTypeID,Length type identification number,A system-generated number for the purposes of database administration.,NULL,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,LightConditionDisplayEng,Light condition (English),"The light conditions at the time of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,LightConditionDisplayFre,Light condition (French),"The light conditions at the time of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,LightConditionID,Light condition identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,LongEnum,Longitude enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,LongEnum_Bearing_DisplayEng,Longitude bearing (English),"Indicates whether the occurrence took place east or west of the meridian (E = east; W = west), in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,LongEnum_Bearing_DisplayFre,Longitude bearing (French),"Indicates whether the occurrence took place east or west of the meridian (E = east; O = west), in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,Longitude,Longitude,"The longitude at which the occurrence took place, in decimal degrees.   A positive number indicates a longitude in the eastern hemisphere; a negative number indicates a longitude in the western hemisphere.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,LsApplianceDisplayEng,Life-saving appliance (English),"The life-saving appliance on board the occurrence vessel, in English. A life-saving appliance is any device that may be used to aid an individual or vessel in an occurrence.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,LsApplianceDisplayFre,Life-saving appliance (French),"The life-saving appliance on board the occurrence vessel, in French. A life-saving appliance is any device that may be used to aid an individual or vessel in an occurrence.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,LsApplianceID,Life-saving appliance identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,MajorChangesIncludedInDaily,Major changes included in daily,Indicates whether there have been major changes to the occurrence information since it was released in the daily notification report.,smallint,NULL
+MDOTW_VW_INJURIES_PUBLIC,ManuallyEnteredStatsIND,Manually entered statistics indicator,"Indicates whether the number of injuries was entered manually (0=no, 1=yes).",smallint,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,MMSI,Maritime Mobile Service Identity,A Maritime Mobile Service Identity (MMSI) is a 9-digit unique identifier of a vessel. It is sent in digital form over a radio frequency channel.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,MultipleFishingOpsEnum,Multiple fishery operations enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,MultipleFishingOpsDisplayEng,Multiple fishery operations (English),"Indicates whether the vessel was engaged in multiple fishing operations at the time of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,MultipleFishingOpsDisplayFre,Multiple fishery operations (French),"Indicates whether the vessel was engaged in multiple fishing operations at the time of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,NavigationAidSubTypeDisplayEng,Navigation aid subtype (English),"The subtype of navigation aid, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,NavigationAidSubTypeDisplayFre,Navigation aid subtype (French),"The subtype of navigation aid, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,NavigationAidSubTypeID,Navigation aid subtype identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,NavigationAidTypeDisplayEng,Navigation aid type (English),"The type of navigation aid, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,NavigationAidTypeDisplayFre,Navigation aid type (French),"The type of navigation aid, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,NavigationAidTypeID,Navigation aid type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,NearestLocationDescription,Nearest location description,"The location nearest to where the occurrence took place, in the language in which it was entered in MARSIS.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,NearestLocationDistance_Nm,Nearest location distance (nautical miles),"The distance in nautical miles between the location indicated in the NearLocDescription field and the actual location of the occurrence, when available. This distance may be included in the NearLocDescription field for records entered before 25 November 2013.",numeric,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,NotificationDetailID,Notification detail identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,NumberOfCrew,Number of crew,The number of crew members on board the vessel.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,NumberOfEvacuated,Number of evacuated,The number of people evacuated from the vessel.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,NumberOfGuest,Number of guests,The number of guests on board the vessel.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,NumberOfOther,Number of others,"The number of other people (e.g., repair crew) on board the vessel.",int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,NumberOfPass,Number of passengers,The number of passengers on board the vessel.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,NumberOfPilots,Number of pilots,The number of pilots on board the vessel.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,ObservedByDisplayEng,Observed by (English),"The role of the person who noticed the presence of ice, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,ObservedByDisplayFre,Observed by (French),"The role of the person who noticed the presence of ice, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,ObservedByID,Observed by identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,OccClassDisplayEng,Occurrence classification (English),"The TSB investigation classification of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,OccClassDisplayFre,Occurrence classification (French),"The TSB investigation classification of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,OccClassID,Occurrence classification identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,OccClosedDate,Occurrence closed date,The date on which the TSB's investigation into the occurrence was closed. Date format is YYYY-MM-DD.,datetime,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,OccDate,Occurrence date,The date on which the occurrence took place. Date format is YYYY-MM-DD.,date,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,OccID,Occurrence identification number,The occurrence identification number; a unique identifier for the occurrence assigned by MARSIS.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,OccNo,Occurrence number,"The TSB occurrence number; a unique identifier for the occurrence. The ""M"" is to identify Marine mode followed by 2 digits to identify the year of the occurrence. The letter after the year is to identify the TSB region responsible for investigating the occurrence. This is followed by the sequential number assigned by the MARSIS application.",varchar,12
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OccID,Occurrence identification number,The occurrence identification number; a unique identifier for the occurrence assigned by MARSIS.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,OccID,Occurrence identification number,The occurrence identification number; a unique identifier for the occurrence assigned by MARSIS.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OccNo,Occurrence number,"The TSB occurrence number; a unique identifier for the occurrence. The ""M"" is to identify Marine mode followed by 2 digits to identify the year of the occurrence. The letter after the year is to identify the TSB region responsible for investigating the occurrence. This is followed by the sequential number assigned by the MARSIS application.",varchar,12
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,OccID,Occurrence identification number,The occurrence identification number; a unique identifier for the occurrence assigned by MARSIS.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,OccID,Occurrence identification number,The occurrence identification number; a unique identifier for the occurrence assigned by MARSIS.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselID,Vessel identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselName,Vessel name,The name of the vessel.,varchar,255
+MDOTW_VW_INJURIES_PUBLIC,OccID,Occurrence identification number,The occurrence identification number; a unique identifier for the occurrence assigned by MARSIS.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,OccNo,Occurrence number,"The TSB occurrence number; a unique identifier for the occurrence. The ""M"" is to identify Marine mode followed by 2 digits to identify the year of the occurrence. The letter after the year is to identify the TSB region responsible for investigating the occurrence. This is followed by the sequential number assigned by the MARSIS application.",varchar,12
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,OccNo,Occurrence number,"The TSB occurrence number; a unique identifier for the occurrence. The ""M"" is to identify Marine mode followed by 2 digits to identify the year of the occurrence. The letter after the year is to identify the TSB region responsible for investigating the occurrence. This is followed by the sequential number assigned by the MARSIS application.",varchar,12
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,OccNo,Occurrence number,"The TSB occurrence number; a unique identifier for the occurrence. The ""M"" is to identify Marine mode followed by 2 digits to identify the year of the occurrence. The letter after the year is to identify the TSB region responsible for investigating the occurrence. This is followed by the sequential number assigned by the MARSIS application.",varchar,12
+MDOTW_VW_INJURIES_PUBLIC,OccNo,Occurrence number,"The TSB occurrence number; a unique identifier for the occurrence. The ""M"" is to identify Marine mode followed by 2 digits to identify the year of the occurrence. The letter after the year is to identify the TSB region responsible for investigating the occurrence. This is followed by the sequential number assigned by the MARSIS application.",varchar,12
+MDOTW_VW_OCCURRENCE_PUBLIC,OccTime,Occurrence time,The time at which the occurrence took place. Time format is hh:mm (24-hour clock).,time,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,OccTypeDisplayEng,Occurrence type (English),"Indicates whether the occurrence was an accident or reportable incident, in English. ",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OccTypeDisplayEng,Occurrence type (English),"Indicates whether the occurrence was an accident or reportable incident, in English. ",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,OccTypeDisplayFre,Occurrence type (French),"Indicated whether the occurrence was an accident or reportable incident, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OccTypeDisplayFre,Occurrence type (French),"Indicates whether the occurrence was an accident or reportable incident, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OccTypeID,Occurrence type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OccurrencePrimaryAccIncIND,Occurrence primary accident or incident indicator,"Indicates whether the accident/incident type is the primary accident/incident of the occurrence (0=no, 1=yes).",varchar,1
+MDOTW_VW_OCCURRENCE_PUBLIC,OccurrenceTypeID,Occurrence type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OfficialNo,Official number,"The vessel's official number, assigned to it by its flag state.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,OnOffEnum,On or off enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,OnOffEnumDisplayEng,On or off (English),"Indicates whether the navigation aids were on or off at the time of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,OnOffEnumDisplayFre,On or off (French),"Indicates whether the navigation aids were on or off at the time of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OtherDamageObjectID,Other damage object identification number,"A system-generated number for the purposes of database 
+administration.",int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OtherObjectDamageDegreeDisplayEng,Other object damage degree (English),"The degree of damage to the other object, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OtherObjectDamageDegreeDisplayFre,Other object damage degree (French),"The degree of damage to the other object, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OtherObjectDamageDegreeID,Other object damage degree identification number,"A system-generated number for the purposes of database 
+administration.",int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OtherObjectDisplayEng,Other object (English),"The subtype of object (other than the vessel) that was damaged in the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OtherObjectDisplayFre,Other object (French),"The subtype of object (other than the vessel) that was damaged in the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OtherObjectIceRelatedDamageIND,Other object ice-related damage indicator,"Indicates whether there was ice-related damage to the object (0=no, 1=yes).",smallint,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OtherObjectID,Other object identification number,"A system-generated number for the purposes of database 
+administration.",int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OtherObjectTypeDisplayEng,Other object type (English),"The type of object (other than the vessel) that was damaged in the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OtherObjectTypeDisplayFre,Other object type (French),"The type of object (other than the vessel) that was damaged in the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OtherObjectTypeID,Other object identification number,"A system-generated number for the purposes of database 
+administration.",int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,OtherStateInvestigatingDisplayEng,Other state investigating (English),"The other state that is investigating the occurrence, if applicable, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,OtherStateInvestigatingDisplayFre,Other state investigation (French),"The other state that is investigating the occurrence, if applicable, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,OtherStateInvestigatingID,Other state investigation identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ParentVesselID,Parent vessel identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ParentVesselName,Parent vessel name,The name of the parent vessel.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ParentVesselVersion,Parent vessel version,The version of the parent vessel at the time of the occurrence.,int,NULL
+MDOTW_VW_INJURIES_PUBLIC,PeopleInWaterDontKnowLSE,People in water life-saving equipment unknown,The number of people for whom it is not known whether they were wearing life-saving equipment.,int,NULL
+MDOTW_VW_INJURIES_PUBLIC,PeopleInWaterLseTypeDisplayEng,People in water life-saving equipment type (English),"The type of life-saving equipment that people in the water were wearing, in English.",varchar,255
+MDOTW_VW_INJURIES_PUBLIC,PeopleInWaterLseTypeDisplayFre,People in water life-saving equipment type (French),"The type of life-saving equipment that people in the water were wearing, in French.",varchar,255
+MDOTW_VW_INJURIES_PUBLIC,PeopleInWaterLseTypeID,People in water life-saving equipment type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_INJURIES_PUBLIC,PeopleInWaterNoLSE,People in water not wearing life-saving equipment,The number of people in the water who were not wearing life-saving equipment.,int,NULL
+MDOTW_VW_INJURIES_PUBLIC,PeopleInWaterWearingLSE,People in water wearing life-saving equipment,The number of people in the water who were wearing life-saving equipment.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,PollutionIND,Pollution indicator,A system-generated number for the purposes of database administration.,smallint,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,PollutionIND_DisplayEng,Pollution (English),"Indicates whether there was pollution associated with the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,PollutionIND_DisplayFre,Pollution (French),"Indicates whether there was pollution associated with the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,PortOfRegistryDisplayEng,Port of registry (English),"The vessel's port of registry, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,PortOfRegistryDisplayFre,Port of registry (French),"The vessel's port of registry, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,PortOfRegistryID,Port of registry identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,Position,Position,The geographical position where the occurrence was located. The data is displayed as a standard GIS number that can be translated into coordinates in various formats.,geography,-1
+MDOTW_VW_OCCURRENCE_PUBLIC,PositionEstimatedIND,Position estimated indicator,A system-generated number for the purposes of database administration.,smallint,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,PositionEstimatedIND_DisplayEng,Position estimated (English),"Indicates whether the occurrence position is estimated, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,PositionEstimatedIND_DisplayFre,Position estimate (French),"Indicates whether the occurrence position is estimated, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,PositionInText,Position in text,The geographical position where the occurrence was located. This is a legacy field from a previous version of MARSIS. This data is now included in the Position field.,nvarchar,-1
+MDOTW_VW_OCCURRENCE_PUBLIC,PositionTypeDisplayEng,Position type (English),"The format in which the occurrence position is expressed (DD.DDDD, DDMM.MMM, or DDMMSS.SS), in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,PositionTypeDisplayFre,Position type (French),"The format in which the occurrence position is expressed (DD.DDDD, Degrés-Minutes-Minutes, or degrés-Minutes-Secondes-Secondes), in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,PositionTypeEnum,Position type enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselPrimaryAccIncTypeIND,Primary accident or incident type indicator,Indicates the primary accident/incident type for the vessel,smallint,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ProdReleaseEnum,Product release enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ProdReleaseEnumDisplayEng,Product release (English),"Indicates whether any product was released, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ProdReleaseEnumEnumDisplayFre,Product release (French),"Indicates whether any product was released, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ProdReleaseLocEnum,Product release location enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ProdReleaseLocEnumDisplayEng,Product release location (English),"Indicates where the released product was stored, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ProdReleaseLocEnumDisplayFre,Product release location (French),"Indicates where the released product was stored, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ProductDetailDisplayEng,Product detail (English),"The subcategory of cargo product on board, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ProductDetailDisplayFre,Product detail (French),"The subcategory of cargo product on board, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,ProductDetailID,Product detail identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,PropulsionTypeDisplayEng,Propulsion type (English),"Indicates the type of propulsion of the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,PropulsionTypeDisplayFre,Propulsion type (French),"Indicates the type of propulsion of the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,PropulsionTypeID,Propulsion type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,ProvinceDisplayEng,Province (English),"The province of the occurrence location, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,ProvinceDisplayFre,Province (French),"The province of the occurrence location, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,ProvinceID,Province identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,QuantityOnBoard,Quantity on board,The quantity of product on board the vessel.,numeric,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,QuantityOnBoardUnitsDisplayEng,Units of quantity on board (English),"The units used to describe the quantity of product on board the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,QuantityOnBoardUnitsDisplayFre,Units of quantity on board (French),"The units used to describe the quantity of product on board the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,QuantityOnBoardUnitsEnum,Units of quantity on board enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,QuantityReleased,Quantity released,The quantity of hazardous product released from the vessel at the time of the occurrence.,numeric,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,QuantityReleasedUnitsEnum,Units of quantity released enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,QuantReleasedUnitsDisplayEng,Units of quantity released (English),"The units used to describe the quantity of hazardous product released from the vessel at the time of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,QuantReleasedUnitsDisplayFre,Units of quantity released (French),"The units used to describe the quantity of hazardous product released from the vessel at the time of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,ReasonNotExtractedDisplayEng,Reason not extracted (English),"The reason that data was not extracted from the vessel's recording equipment, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,ReasonNotExtractedDisplayFre,Reason not extracted (French),"The reason that data was not extracted from the vessel's recording equipment, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,ReasonNotExtractedID,Reason not extracted identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,RecAudioFilesDelEnum,Recorder audio files deleted enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,RecAudioFilesDelEnumDisplayEng,Recorder audio files deleted enumerated display (English),"Indicates whether the vessel's voyage data recorder audio files were deleted, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,RecAudioFilesDelEnumDisplayFre,Recorder audio files deleted enumerated display (French),"Indicates whether the vessel's voyage data recorder audio files were deleted, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,RecAudioFilesSegregatedEnum,Recorder audio files segregated enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,RecAudioFilesSegregatedEnumDisplayEng,Recorder audio files segregated enumerated  (English),"Indicates whether the vessel's voyage data recorder audio files were segregated, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,RecAudioFilesSegregatedEnumDisplayFre,Recorder audio files segregated enumerated (French),"Indicates whether the vessel's voyage data recorder audio files were segregated, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,RecCapacity_NumberOfDays,Recording capacity number of days,"The storage capacity of the voyage data recorder, in days.",numeric,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,RecordingEquipDisplayEng,Recording equipment (English),"The type of recording equipment on board the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,RecordingEquipDisplayFre,Recording equipment  (French),"The type of recording equipment on board the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,RecordingEquipID,Recording equipment identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,RegionOfOccurrenceDisplayEng,Region of occurrence (English),"The region in which an occurrence took place (Pacific, Central, Atlantic, or foreign waters), in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,RegionOfOccurrenceDisplayFre,Region of occurrence (French),"The region in which an occurrence took place (Pacific, Central, Atlantic, or foreign waters), in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,RegionOfOccurrenceID,Region of occurrence identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,RegionResponsibilityDisplayEng,Region of responsibility (English),"The administrative region of the TSB responsible for investigating the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,RegionResponsibilityDisplayFre,Region of responsibility (French),"The administrative region of the TSB responsible for investigating the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,RegionResponsibilityID,Region of responsibility identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,ReleasedDate,Released date,The date on which the initial occurrence details were released to the occurrence notification log.,datetime,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,ReportedByDisplayEng,Reported by (English),"The organization that initially reported the occurrence to the TSB, or the means by which the occurrence was reported, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,ReportedByDisplayFre,Reported by (French),"The organization that initially reported the occurrence to the TSB, or the means by which the occurrence was reported, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,ReportedByID,Reported by identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,ReportedDate,Reported date,The date on which the occurrence was recorded by the TSB.,datetime,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,ReportSourceDisplayEng,Report source (English),"The type of report that initially informed the TSB of an occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,ReportSourceDisplayFre,Report source (French),"The type of report that initially informed the TSB of an occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,ReportSourceID,Report source identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,RoutingDisplayEng,Routing (English),"Indicates where in the routing system the occurrence happened, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,RoutingDisplayFre,Routing (French),"Indicates where in the routing system the occurrence happened, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,RoutingID,Routing identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,SafetyCommIssuedIND,Safety communication issued indicator,A system-generated number for the purposes of database administration.,smallint,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,SafetyCommIssuedIND_DisplayEng,Safety communication issued (English),"Indicates whether any safety communications related to the occurrence have been issued by the TSB, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,SafetyCommIssuedIND_DisplayFre,Safety communication issued (French),"Indicates whether any safety communications related to the occurrence have been issued by the TSB, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,SeaPollutionDegreeDisplayEng,Sea pollution degree (English),"The degree of sea pollution resulting from the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,SeaPollutionDegreeDisplayFre,Sea pollution degree (French),"The degree of sea pollution resulting from the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,SeaPollutionDegreeID,Sea pollution degree identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,SearchAndRescueIND,Search and rescue indicator,A system-generated number for the purposes of database administration.,smallint,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,SearchAndRescueIND_DisplayEng,Search and rescue (English),"Indicates whether search-and-rescue operations were initiated, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,SearchAndRescueIND_DisplayFre,Search and rescue (French),"Indicates whether search-and-rescue operations were initiated, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,SeaStateDisplayEng,Sea state (English),"The sea state or condition at the time of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,SeaStateDisplayFre,Sea state (French),"The sea state or condition at the time of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,SeaStateID,Sea state identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,SeatTemp_Celsius,Sea temperature Celsius,"The sea temperature at the time of the occurrence, in degrees Celsius.",int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,SerialNumber,Serial number,The serial number of the voyage data recorder.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,SmsOnBoardDisplayEng,Safety management system on board (English),"Indicates whether a safety management system was used on board, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,SmsOnBoardDisplayFre,Safety management system on board (French),"Indicates whether a safety management system was used on board, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,SmsOnBoardEnum,Safety management system on board enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,SmsTypeDisplayEng,Safety management system type (English),"The type of safety management system used on board, in English. ",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,SmsTypeDisplayFre,Safety management system type (French),"The type of safety management system used on board, in French. ",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,SmsTypeEnum,Safety management system type enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,SoftwareAudioMakeDisplayEng,Software audio make (English),"The make of the audio software used on the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,SoftwareAudioMakeDisplayFre,Software audio make (French),"The make of the audio software used on the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,SoftwareAudioMakeID,Software audio make identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,SoftwareAudioModelDisplayEng,Software audio model (English),"The model of the audio software used on the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,SoftwareAudioModelDisplayFre,Software audio model (French),"The model of the audio software used on the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,SoftwareAudioModelID,Software audio model identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,SoftwareVersion,Software version,The version number of the software used on the vessel.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,Speed_Knots,Speed (knots),"The vessel's speed, in knots.",numeric,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,StowedOnDeckEnum,Stowed on deck enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,StowedOnDeckEnumDisplayEng,Stowed on deck (English),"Indicates whether cargo was stowed on deck, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,StowedOnDeckEnumDisplayFre,Stowed on deck (French),"Indicates whether cargo was stowed on deck, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,SubstantiallyInsterestedStateIND,Substantially interested state indicator,"Indicates whether there is a substantially interested state, other than the TSB, investigating the occurrence (0 = yes; 1 = no).",int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,SubstantiallyInterestedStateDisplayEng,Substantially interested state (English),"The name of the substantially interested state investigating the occurrence, in English. ",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,SubstantiallyInterestedStateDisplayFre,Substantially interested state (French),"The name of the substantially interested state investigating the occurrence, in French. ",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,SubstantiallyInterestedStateID,Substantially interested state identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,Summary,Summary,"The summary of the occurrence, in the language in which it was entered.",varchar,-1
+MDOTW_VW_OCCURRENCE_PUBLIC,SwellDirection,Swell direction,The swell direction at the time of the occurrence.,varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,SwellDirectionID,Swell direction identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,SwellHeight_Meters,Swell height (metres),"The swell height at the time of the occurrence, in metres.",numeric,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,TimeZoneDisplayEng,Time zone (English),"The time zone of the time of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,TimeZoneDisplayFre,Time zone (French),"The time zone of the time of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,TimeZoneID,Time zone identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,TotalDeaths,Total deaths,The total number of persons who died as a result of the occurrence.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TotalLength_Meters,Total length (metres),"The total length of the vessel, in metres.",numeric,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,TotalMinorInjuries,Total minor injuries,The total number of persons who received minor injuries as a result of the occurrence.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,TotalMissingIndividuals,Total missing individuals,The total number of persons who are missing as a result of the occurrence.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,TotalPeopleInTheWater,Total people in the water,The total number of persons in the water as a result of the occurrence.,int,NULL
+MDOTW_VW_INJURIES_PUBLIC,TotalPeopleInWater,Total people in water,The total number of persons in the water as a result of the occurrence.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TotalPeopleOnBoard,Total people on board,The total number of people on board the vessel.,,
+MDOTW_VW_OCCURRENCE_PUBLIC,TotalSeriousInjuries,Total serious injuries,The total number of persons seriously injured as a result of the occurrence.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TotalVesselDeaths,Total vessel deaths,The total number of persons on board the vessel who died as a result of the occurrence.,int,NULL
+MDOTW_VW_INJURIES_PUBLIC,TotalVesselInjuries,Total vessel injuries,The total number of persons on board the vessel who were injured as a result of the occurrence.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TotalVesselMinorInjuries,Total vessel minor injuries,The total number of persons on board the vessel who received minor injuries as a result of the occurrence.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TotalVesselMissingIndividuals,Total vessel missing individuals,The total number of persons on board the vessel who are missing as a result of the occurrence.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TotalVesselPeopleInTheWater,Total vessel people in the water,The total number of persons on board the vessel who were in the water as a result of the occurrence.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TotalVesselSeriousInjuries,Total vessel serious injuries,The total number of persons on board the vessel who were seriously injured as a result of the occurrence.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TowedSequence,Towed sequence,A system-generated number for the purposes of database administration.,smallint,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TowedVesselID,Towed vessel identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TowedVesselName,Towed vessel name,The name of the vessel being towed.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TowedVesselTypeDisplayEng,Towed vessel type (English),"The type of vessel being towed, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TowedVesselTypeDisplayFre,Towed vessel type (French),"The type of vessel being towed, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TowedVesselTypeID,Towed vessel type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TowedVesselVersion,Towed vessel version,The version of the vessel being towed.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TowingPushingInd,Towing or pushing indicator,Indicates whether the vessel was either towing or pushing another vessel or barge.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,TowlineLength_Meters,Towline length (metres),"The length of the towline between the tug and the vessel being towed, in metres.",numeric,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,UnderIceRegimeEnum,Under ice regime,A system-generated number for the purposes of database administration.,smallint,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,UnderIceRegimeEnumDisplayEng,Under ice regime (English),"Indicates whether the vessel was navigating under the Ice Regime System, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,UnderIceRegimeEnumDisplayFre,Under ice regime (French),"Indicates whether the vessel was navigating under the Ice Regime System, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,UnNumber,UN number,The UN number of the product released as a result of the occurrence.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,UsedEnum,Used enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,UsedEnumDisplayEng,Used (English),"Indicates whether the lifesaving appliance was used, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,UsedEnumDisplayFre,Used (French),"Indicates whether the lifesaving appliance was used, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,VdrDetailID,Voyage data recorder detail identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderAddressLine1,Vessel builder address line 1,The first line of the address of the vessel builder.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderAddressLine2,Vessel builder address line 1,The second line of the address of the vessel builder.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderCity,Vessel builder city,The city of the vessel builder.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderCountryDisplayEng,Vessel builder country (English),"The country of the vessel builder, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderCountryDisplayFre,Vessel builder country (French),"The country of the vessel builder, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderCountryID,Vessel builder country identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderEmailAddress,Vessel builder email address,The email address of the vessel builder.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderID,Vessel builder identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderName,Vessel builder name,The name of the vessel builder.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderPhoneNumber,Vessel builder telephone number,The telephone number of the vessel builder.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderPostalZipCode,Vessel builder postal code or zip code,The postal code or zip code of the vessel builder.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderProvince,Vessel builder province,The province of the vessel builder.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselCargoID,Vessel cargo identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageDegreeDisplayEng,Vessel damage degree (English),"The degree of damage to the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageDegreeDisplayFre,Vessel damage degree (English),"The degree of damage to the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageDegreeID,Vessel damage degree identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageID,Vessel damage identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageLocationCategoryDisplayEng,Vessel damage location category (English),"The category of the location of the damage to the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageLocationCategoryDisplayFre,Vessel damage location category (French),"The category of the location of the damage to the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageLocationCategoryID,Vessel damage location category identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageLocationDisplayEng,Vessel damage location (English),"The location of the damage to the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageLocationDisplayFre,Vessel damage location (French),"The location of the damage to the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageLocationID,Vessel damage location identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageLocationSubCategoryDisplayEng,Vessel damage location subcategory (English),"The subcategory of the location of the damage to the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageLocationSubCategoryDisplayFre,Vessel damage location subcategory (French),"The subcategory of the location of the damage to the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselDamageLocationSubCategoryID,Vessel damage location subcategory identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselFlagDisplayEng,Vessel flag (English),"The flag country of the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselFlagDisplayFre,Vessel flag (French),"The flag country of the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselFlagID,Vessel flag identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselIceRelatedDamageIND,Vessel ice-related damage indicator,"Indicates whether the vessel sustained ice-related damage (0=no, 1=yes).",smallint,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,VesselIcingPresentEnum,Vessel icing present enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,VesselIcingPresentEnumDisplayEng,Vessel icing present (English),"Indicates whether there was vessel icing at the time of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,VesselIcingPresentEnumDisplayFre,Vessel icing present (French),"Indicates whether there was vessel icing at the time of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,VesselIcingQualificationDisplayEng,Vessel icing qualification (English),"The severity of the vessel icing, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,VesselIcingQualificationDisplayFre,Vessel icing qualification (French),"The severity of the vessel icing, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,VesselIcingQualificationID,Vessel icing qualification identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,VesselID,Vessel identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,VesselID,Vessel identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,VesselID,Vessel identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OccID,Occurrence identification number,The occurrence identification number; a unique identifier for the occurrence assigned by MARSIS.,varchar,12
+MDOTW_VW_INJURIES_PUBLIC,VesselID,Vessel identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,OccNo,Occurrence number,"The TSB occurrence number; a unique identifier for the occurrence. The ""M"" is to identify Marine mode followed by 2 digits to identify the year of the occurrence. The letter after the year is to identify the TSB region responsible for investigating the occurrence. This is followed by the sequential number assigned by the MARSIS application.",int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,VesselName,Vessel name,The name of the vessel.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,VesselName,Vessel name,The name of the vessel.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,VesselName,Vessel name,The name of the vessel.,varchar,255
+MDOTW_VW_INJURIES_PUBLIC,VesselName,Vessel name,The name of the vessel.,varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselPhaseDisplayEng,Vessel phase (English),"The part of the voyage that the vessel was in at the time of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselPhaseDisplayFre,Vessel phase (French),"The part of the voyage that the vessel was in at the time of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselPhaseID,Vessel phase identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_REC_EQUIPMENT_PUBLIC,VesselSoftwareAudioID,Vessel software audio identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselSubTypeDisplayEng,Vessel subtype (English),"The subtype of the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselSubTypeDisplayFre,Vessel subtype (French),"The subtype of the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselSubTypeID,Vessel subtype identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselTypeDisplayEng,Vessel type (English),"The type of the vessel, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselTypeDisplayFre,Vessel type (French),"The type of the vessel, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselTypeID,Vessel type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselVersion,Vessel version,The version of the vessel.,int,NULL
+MDOTW_VW_INJURIES_PUBLIC,VictimDeath,Victim death,The number of persons on board the vessel at the time of the occurrence who were reported dead.,int,NULL
+MDOTW_VW_INJURIES_PUBLIC,VictimMinorInjuries,Victim minor injuries,The number of persons on board the vessel at the time of the occurrence who sustained minor injuries.,int,NULL
+MDOTW_VW_INJURIES_PUBLIC,VictimMissing,Victim missing,The number of persons on board the vessel at the timing of the occurrence who were reported missing.,int,NULL
+MDOTW_VW_INJURIES_PUBLIC,VictimSeriousInjuries,Victim serious injuries,The number of persons on board the vessel at the time of the occurrence who sustained serious injuries.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,VisibilityDistance_Nm,Visibility distance (nautical miles),"The visibility at the time of the occurrence, in nautical miles.",numeric,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VRN,Vessel registration number,The vessel registration number issued by Fisheries and Oceans Canada.,varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,WeatherConditionDisplayEng,Weather condition (English),"The weather conditions at the time of the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,WeatherConditionDisplayFre,Weather condition (French),"The weather conditions at the time of the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,WeatherConditionID,Weather condition identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,WeatherFactorEnum,Weather factor enumerated,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,WeatherFactorEnum_DisplayEng,Weather factor (English),"Indicates whether weather was a factor in the occurrence, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,WeatherFactorEnum_DisplayFre,Weather factor (French),"Indicates whether weather was a factor in the occurrence, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,Width_Meters,Width (metres),"The width of the vessel, in metres.",numeric,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,WidthTypeDisplayEng,Width type (English),"The type of vessel width, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,WidthTypeDisplayFre,Width type (French),"The type of vessel width, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,WidthTypeID,Width type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,WindDirection,Wind direction,The direction in which the wind was blowing at the time of the occurrence.,varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,WindDirectionID,Wind direction identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,WindSpeed_Knots,Wind speed (knots),"The wind speed at the time of the occurrence, in knots.",numeric,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,WindSpeedTypeDisplayEng,Wind speed type (English),"The type of wind speed measurement, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,WindSpeedTypeDisplayFre,Wind speed type (French),"The type of wind speed measurement, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,WindSpeedTypeID,Wind speed type identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,WithInPilotBoardingAreaEnum,Within pilot boarding area enumerated,A system-generated number for the purposes of database administration.,smallint,NULL
+MDOTW_VW_OCCURRENCE_PUBLIC,WithInPilotBoardingAreaEnum_DisplayEng,Within pilot boarding area (English),"Indicates whether the vessel was within a pilot boarding area, in English.",varchar,255
+MDOTW_VW_OCCURRENCE_PUBLIC,WithInPilotBoardingAreaEnum_DisplayFre,Within pilot boarding area (French),"Indicates whether the vessel was within a pilot boarding area, in French.",varchar,255
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,XrfActvityID,Activity identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_LSA_EQUIPMENT_PUBLIC,XrfOccVesselLsApplianceID,Occurrence vessel lifesaving appliance identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_NAV_EQUIPMENT_PUBLIC,XrfOccVesselNavAidID,Occurrence vessel navigation aid identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_INJURIES_PUBLIC,XrfOccVesselVictimCountID,Occurrence vessel victim count identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,xrfTowedVesselID,Towed vessel identification number,A system-generated number for the purposes of database administration.,int,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,YearBuilt,Year built,The year in which the vessel was built.,smallint,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,YearRebuilt,Year rebuilt,The year in which the vessel was rebuilt.,smallint,NULL
+MDOTW_VW_OCCURRENCE_VESSEL_PUBLIC,VesselBuilderID,Vessel builder identification number,Builder Id is the unique Identifier of a builder of a vessel.,int,NULL
